@@ -67,8 +67,8 @@ class LogProcessor:
 
 if __name__ == "__main__":
     # Add your additional keywords here
-    initial_keywords = ["CevicheEventTracker","Ceviche OOBE event published","AdManager OOBE event published"]
-    additional_keywords = ["AdImpression", "ViewabilityAdEvent","AdSelection","AdChecked","AdClick", "ImpressionAdEvent", "CheckedAdEvent", "SelectionAdEvent", "ClickAdEvent"]
+    initial_keywords = ["Enter your Parent keywords"]
+    additional_keywords = ["Enter your child keywords"]
     # Directory containing log files
     logs_dir = "LOGS"
     # Replace with the correct encoding if known
