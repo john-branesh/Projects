@@ -1,0 +1,49 @@
+| S.No | Capability Category | Capability / Criteria | Available in MPD |
+|-----:|---------------------|----------------------|------------------|
+| 1    | General             | MPD Type             | Static |
+| 2    | General             | Number of Periods    | 2 |
+| 3    | General             | Multi-Period Content | Yes |
+| 4    | General             | Total Playtime       | 51m 00s |
+| 5    | General             | Max Period End Time  | 51m 00s |
+| 6    | General             | Ad Signaling Present | Yes |
+| 7    | General             | Ad Marker Type       | Period-based |
+| 8    | Video               | Video Tracks Present | Yes |
+| 9    | Video               | Video Codec(s)       | avc1.64000d, avc1.640015, avc1.640016, avc1.64001e, avc1.64001f, avc1.640020, avc1.640029 |
+| 10   | Video               | Max Resolution       | 1920×960 |
+| 11   | Video               | Min Resolution       | 416×208 |
+| 12   | Video               | UHD Available (≥2160p) | No |
+| 13   | Video               | FHD Available (≥1080p) | No |
+| 14   | Video               | HD Available (≥720p) | Yes |
+| 15   | Video               | Max Video Bitrate    | 7184 kbps |
+| 16   | Video               | Min Video Bitrate    | 377 kbps |
+| 17   | Video               | Multiple Bitrate Ladder Present | Yes |
+| 18   | Audio               | Audio Tracks Present | Yes |
+| 19   | Audio               | Audio Codec(s)       | ec-3, mp4a.40.5 |
+| 20   | Audio               | Audio Languages      | en-US, es-419 |
+| 21   | Audio               | Max Audio Bitrate    | 258 kbps |
+| 22   | Audio               | Min Audio Bitrate    | 64 kbps |
+| 23   | Audio               | Multiple Audio Bitrates Present | Yes |
+| 24   | Audio               | Multiple Audio AdaptationSets | Yes |
+| 25   | Audio               | Surround-capable Codec Present | Yes |
+| 26   | Subtitles           | Subtitles Present    | Yes |
+| 27   | Subtitles           | Subtitle Languages   | en-US, es-419 |
+| 28   | Subtitles           | Subtitle Format(s)   | Not specified |
+| 29   | Subtitles           | Forced Subtitles Present | No |
+| 30   | Subtitles           | Multiple Subtitle AdaptationSets | Yes |
+| 31   | Subtitles           | Subtitles Across Multiple Periods | Yes |
+| 32   | DRM                 | Content Encrypted    | Yes |
+| 33   | DRM                 | DRM Systems Present  | PlayReady, Widevine |
+| 34   | DRM                 | Multiple DRM Systems Present | Yes |
+| 35   | DRM                 | Clear (Unencrypted) Tracks Present | Yes |
+
+===== PERIOD TIMELINE =====
+
+Period 0:
+  Start    : Not specified (explicit)
+  Duration : 50m 00s
+  End      : 50m 00s
+
+Period 1:
+  Start    : 50m 00s (explicit)
+  Duration : 1m 00s
+  End      : 51m 00s

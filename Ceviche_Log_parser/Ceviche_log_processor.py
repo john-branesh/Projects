@@ -9,13 +9,16 @@ class LogProcessor:
         self.file_encoding = file_encoding
         self.output_dir = output_dir
 
+        # Compile regex patterns once
+        self.initial_patterns = {kw: re.compile(kw) for kw in initial_keywords}
+        self.additional_patterns = {kw: re.compile(kw) for kw in additional_keywords}
+
         # Create the output directory if it doesn't exist
         self.create_output_directory()
 
     # Creating Output Folder
     def create_output_directory(self):
-        if not os.path.exists(self.output_dir):
-            os.mkdir(self.output_dir)
+        os.makedirs(self.output_dir, exist_ok=True)
 
     def process_logs(self):
         # Iterate over each initial keyword

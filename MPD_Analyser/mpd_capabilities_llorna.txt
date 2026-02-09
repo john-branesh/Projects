@@ -1,0 +1,80 @@
+| S.No | Capability Category | Capability / Criteria | Available in MPD |
+|-----:|---------------------|----------------------|------------------|
+| 1    | General             | MPD Type             | Static |
+| 2    | General             | MPD Profiles         | urn:mpeg:dash:profile:isoff-on-demand:2011 |
+| 3    | General             | Minimum Buffer Time  | 0m 02s |
+| 4    | General             | Availability Start Time | Not specified |
+| 5    | General             | Time Shift Buffer Depth | Not applicable (VOD) |
+| 6    | General             | Number of Periods    | 7 |
+| 7    | General             | Multi-Period Content | Yes |
+| 8    | General             | Total Playtime       | 1h 29m 00s |
+| 9    | General             | Max Period End Time  | 1h 32m 00s |
+| 10   | General             | Ad Signaling Present | Yes |
+| 11   | General             | Ad Marker Type       | Period-based |
+| 12   | Video               | Video Tracks Present | Yes |
+| 13   | Video               | HDR Present          | No |
+| 14   | Video               | HDR Type(s)          | Not applicable |
+| 15   | Video               | Video Codec(s)       | avc1.640015, avc1.64001e, avc1.64001f, avc1.640028, avc1.640029, hvc1.2.4.L120.90, hvc1.2.4.L63.90, hvc1.2.4.L90.90, hvc1.2.4.L93.90 |
+| 16   | Video               | Max Resolution       | 1920×1080 |
+| 17   | Video               | Min Resolution       | 480×270 |
+| 18   | Video               | UHD Available (≥2160p) | No |
+| 19   | Video               | FHD Available (≥1080p) | Yes |
+| 20   | Video               | HD Available (≥720p) | Yes |
+| 21   | Video               | Max Video Bitrate    | 6261 kbps |
+| 22   | Video               | Min Video Bitrate    | 406 kbps |
+| 23   | Video               | Multiple Bitrate Ladder Present | Yes |
+| 24   | Audio               | Audio Tracks Present | Yes |
+| 25   | Audio               | Audio Codec(s)       | ec-3, mp4a.40.5 |
+| 26   | Audio               | Audio Languages      | en-US, es-419 |
+| 27   | Audio               | Max Audio Bitrate    | 642 kbps |
+| 28   | Audio               | Min Audio Bitrate    | 64 kbps |
+| 29   | Audio               | Multiple Audio Bitrates Present | Yes |
+| 30   | Audio               | Multiple Audio AdaptationSets | Yes |
+| 31   | Audio               | Surround-capable Codec Present | Yes |
+| 32   | Subtitles           | Subtitles Present    | Yes |
+| 33   | Subtitles           | Subtitle Languages   | en-US, es-419 |
+| 34   | Subtitles           | Subtitle Format(s)   | Not specified |
+| 35   | Subtitles           | Forced Subtitles Present | No |
+| 36   | Subtitles           | Multiple Subtitle AdaptationSets | Yes |
+| 37   | Subtitles           | Subtitles Across Multiple Periods | Yes |
+| 38   | DRM                 | Content Encrypted    | Yes |
+| 39   | DRM                 | DRM Systems Present  | PlayReady, Widevine |
+| 40   | DRM                 | Multiple DRM Systems Present | Yes |
+| 41   | DRM                 | Clear (Unencrypted) Tracks Present | Yes |
+
+===== PERIOD TIMELINE =====
+
+Period 0:
+  Start    : Not specified (explicit)
+  Duration : Not specified
+  End      : Not determinable
+
+Period 1:
+  Start    : Not specified (explicit)
+  Duration : 15m 00s
+  End      : 15m 00s
+
+Period 2:
+  Start    : 16m 00s (explicit)
+  Duration : 14m 00s
+  End      : 30m 00s
+
+Period 3:
+  Start    : 30m 00s (explicit)
+  Duration : 15m 00s
+  End      : 45m 00s
+
+Period 4:
+  Start    : 46m 00s (explicit)
+  Duration : 15m 00s
+  End      : 1h 01m 00s
+
+Period 5:
+  Start    : 1h 01m 00s (explicit)
+  Duration : 14m 00s
+  End      : 1h 15m 00s
+
+Period 6:
+  Start    : 1h 16m 00s (explicit)
+  Duration : 16m 00s
+  End      : 1h 32m 00s
