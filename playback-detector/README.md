@@ -89,6 +89,9 @@ playback-detector/
 │   ├── paused.png
 │   └── buffering.png
 │
+├── screenshots/
+│   └── .gitkeep
+│
 ├── package.json
 ├── README.md
 └── .gitignore
@@ -291,6 +294,12 @@ Detection Result
 ```
 
 This allows the image-processing and detection logic to be developed independently.
+
+Put screenshots to compare in `screenshots/`. This is the only folder the
+script reads. The loader reads PNG, JPEG, and WebP images, then orders them by
+the time each file was saved. The oldest screenshot is therefore compared
+before newer screenshots. You do not provide a file path when running the
+script.
 
 Once a device integration is available, the screenshot provider can be replaced without changing the detection algorithm.
 
